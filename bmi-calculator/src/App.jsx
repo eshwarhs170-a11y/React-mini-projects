@@ -21,7 +21,7 @@ const App = () => {
     else category="Obese"
 
 
-    setresult(`Your BMI is ${bmi} : You are ${category}`)
+    setresult(`Your BMI is ${bmi} : You are ${category} `)
   }
 
   return (
