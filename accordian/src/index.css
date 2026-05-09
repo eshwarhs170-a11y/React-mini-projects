@@ -1,0 +1,76 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex: 1;
+gap: 20px;
+}
+.wrapper button{
+    padding: 10px 20px;
+    background-color: rgb(54, 45, 147);;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.accordian{
+  background-color: rgb(54, 45, 147);
+  height:100vh;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+.item{
+  background-color: white;
+  padding: 10px 20px;
+  width: 60vw;
+  border-radius:5px;
+  letter-spacing: 1px;
+  flex-wrap: nowrap;
+}
+.title{
+display: flex;
+justify-content: space-between;
+cursor: pointer;
+}
+.title span{
+  font-weight: 600;
+  
+}
+.content{
+  padding-top: 9px;
+  color: rgb(32, 207, 19);
+
+}
+.btn{
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  font-weight:600;
+  color :white;
+  background-color: black;
+  border-radius: 12px;
+  cursor: pointer;
+}
