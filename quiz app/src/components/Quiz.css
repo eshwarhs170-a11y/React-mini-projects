@@ -1,7 +1,7 @@
 .container{
   width: 590px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 5px;
   background-color: white;
   color: #262626;
   display: flex;
@@ -47,4 +47,12 @@
 .container .index {
     margin: auto;
     font-size: 18px;
+}
+.container .correct{
+    background-color: #dffff2;
+    border-color: #00d399;
+}
+.container .wrong{
+    background-color: #FFEBEB;
+    border-color: #FF4A4A;
 }
